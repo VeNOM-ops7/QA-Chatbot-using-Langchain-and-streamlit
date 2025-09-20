@@ -1,0 +1,16 @@
+[project]
+name = "generative-ai-k"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "gunicorn>=23.0.0",
+    "ipykernel>=6.30.1",
+    "langchain>=0.3.27",
+    "langchain-cohere>=0.4.6",
+    "langgraph>=0.6.7",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.49.1",
+]
